@@ -13,7 +13,7 @@ We apply Recurrent Neural Network(RNN) to this project. RNN can make full use of
 best choice.
 
 **tanh.py**: The basic RNN model, whose activation function is tanh.  
-**softmax**: We divide the value of the average blood pressure into several intervals to transfer the regression problem into classifier problem. As a result, we use softmax classifier to the end of RNN.
+**softmax**: We divide the value of the average blood pressure into several intervals to transfer the regression problem into classifier problem. As a result, we use softmax classifier to the end of RNN.  
 **momentum.py**: We apply an advanced gradient descending algorithm called momentum to train our model.  
 **dropout.py**: We use a trick called dropout to reduce overfitting.  
 **new_model_latent**: We propose a new method to fill in the vacant position in user information, such as bmi and age. A latent vector will
