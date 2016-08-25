@@ -19,5 +19,6 @@ best choice.
 **momentum.py**: We apply an advanced gradient descending algorithm called momentum to train our model.  
 **dropout.py**: We use a trick called dropout to reduce overfitting.  
 **new_model_latent**: We propose a new method to fill in the vacant position in user information, such as bmi and age. A latent vector will be learned to represent the vacant position, and the latent vector is somehow the approximation of all the user. By this way, we can easily use data of all users.  
-**KNN.py**: We use KNN model to fill in the missing value of BMI and age. After the filling, the MAE is 3.501
-**my_lstm.py**: We use LSTM unit to replace the activation tanh, and tranform the basic LSTM to a more suitable model to our task. We use tensorflow to realize it.
+**KNN.py**: We use KNN model to fill in the missing value of BMI and age. After the filling, the MAE is 3.501  
+**my_lstm.py**: We use LSTM unit to replace the activation tanh, and tranform the basic LSTM to a more suitable model to our task. We use tensorflow to realize it.  
+**reader.py**: This file is to transform the original file into the suitable input for tensorflow.  
