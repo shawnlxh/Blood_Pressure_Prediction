@@ -2,7 +2,7 @@
 ## Background
 We cooperate with ihealth company and apply the blood pressure data collected from their intelligent device for home use.
 
-Our data includes the user information data, such as **height, weight(), sex, age**, and the observation data, including **systolic blood 
+Our data includes the user information data, such as **height, weight, sex, age**, and the observation data, including **systolic blood 
 pressure, diastolic blood pressure, heart rate, the time of the measure, whether taking in drug, mood**.
 
 The target of the project is to predict the average blood pressure value of each user in the next month, using the former measure data of each 
