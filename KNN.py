@@ -56,8 +56,8 @@ def predict():
     
 test_label = predict()
 count = len(data)
+m = 0
 for i in range(count):
-    m = 0
     count1 = len(data[i])
     for q in range(count1):
         if data[i][q][17] == None or data[i][q][18] == None:
