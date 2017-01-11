@@ -90,7 +90,7 @@ def train():
                 du += dl_u
                 dw += dl_w
         
-                dl_h1 = np.dot(dl_h2, w.T)
+                dl_h1 = np.dot(mid, w.T)
                 mid = (dl_h1) * (1 - h1 * h1)
                 dl_u = np.dot(i1.T, mid) + lamda * u
                 dl_w = np.dot(h0.T, mid) + lamda * w
@@ -124,14 +124,14 @@ def train():
                 du += dl_u
                 dw += dl_w
             
-                dl_ht1 = np.dot(dl_ht, w.T)
+                dl_ht1 = np.dot(mid, w.T)
                 mid = (dl_ht1) * (1 - ht1 * ht1)
                 dl_u = np.dot(it1.T, mid) + lamda * u
                 dl_w = np.dot(ht2.T, mid) + lamda * w
                 du += dl_u
                 dw += dl_w
             
-                dl_ht2 = np.dot(dl_ht1, w.T)
+                dl_ht2 = np.dot(mid, w.T)
                 mid = (dl_ht2) * (1 - ht2 * ht2)
                 dl_u = np.dot(it2.T, mid) + lamda * u
                 dl_w = np.dot(ht3.T, mid) + lamda * w
