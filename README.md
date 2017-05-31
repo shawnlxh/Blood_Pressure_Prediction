@@ -24,5 +24,5 @@ best choice.
 **reader.py**: This file is to transform the original file into the suitable input for tensorflow.
 
 ## Update
-Our paper has been published on WWW 2017, the link of this paper is:  
+Our paper has been published on WWW 2017, I have upload this paper in this project. The link of this paper is:  
 http://dl.acm.org/citation.cfm?doid=3038912.3052604
