@@ -2,5 +2,5 @@
 Here is the input sample of my_lstm.py.  
 Because of the privacy of blood pressure data, we cannot provide the original data. So we made a input sample to show the form of ipnut.  
 ## Tips
-1. Tensorflow can only process sequence of fixed length, so we fill the data in every step to the same length with zero vector. 
+1. Tensorflow can only process sequence of fixed length, so we fill the data in every step to the same length with zero vector. **train_data_len.json** and **test_data_len.json** are to indicate the original length of train and test data.
 2. Values of all features are normalized to the same range. We use Min-Max normalization in this project.
